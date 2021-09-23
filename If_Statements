@@ -1,0 +1,66 @@
+>   # greater than
+<   # less than
+>=  # greater than or equal to
+<=  # less than or equal to
+==  # equal to
+!=  # not equal to
+is  # used to check equality for True, False, and None
+in  # determines if something is in a collection
+
+#----------------
+
+age = int(input("Please enter your age: "))
+
+if age >= 18:
+    print("You can vote")
+else:
+    print("You can not vote.")
+
+#----------------
+
+mark = int(input("Please enter your mark: "))
+
+if mark >= 80:
+    print("You have an A")
+elif mark >= 70:
+    print("You have a B")
+else:
+    print("You have a C or lower.")
+    
+#----------------
+
+mark = int(input("Please enter your mark: "))
+
+if mark >= 80:
+    print("You have an A")
+elif mark >= 70:
+    print("You have a B")
+elif mark >= 60:
+    print("You have a C")
+elif mark >= 50:
+    print("You have a D")
+else:
+    print("You FAIL!!!!")
+
+#----------------
+
+age = 10
+old_enough = age > 5
+
+if old_enough is True:
+    print("You can ride on the rollercoaster!")
+
+#----------------
+
+a = 5
+b = 7
+
+if a >= 5 and b > 10:  # False
+    print("hello")
+
+if a == 5 or b > 100:  # True
+    print("goodbye")
+
+if not (a >= 5 and b > 10):  # True
+    print("hello")
+
